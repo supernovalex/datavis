@@ -1,3 +1,8 @@
+# dataset for the class is found here
+# https://data.police.uk/data/
+
+# also required is a dataset of london map boundaries from here
+# https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london
 
 # data import function
 importdata = function(d) {
@@ -51,13 +56,19 @@ write.csv(crimes, file = paste0(folder, "/allcrimes.csv", row.names = F))
 write.csv(crimesNoArea, file = paste0(folder, "/allcrimesnoarea.csv"), row.names = F)
 write.csv(crimeType, file = paste0(folder, "/crimetypes.csv"), row.names = F)
 
-# funky geolocation information system stuff (GIS)
-shapefilepath = "London Map/London-wards-2018_ESRI"
+######
+# again, change this to where you saved the map files
+
+shapefilepath = "london_map/London-wards-2018_ESRI"
+
+######
+
+# funky GIS stuff
 shapefile = readOGR(file.path(shapefilepath), layer = "London_Ward")
 proj4string(shapefile) = CRS("+init=epsg:27700")
 shapefile.wgs84 = spTransform(shapefile, CRS("+init=epsg:4326"))
 
-# save GIS data to ggplot object
+# save the map data to ggplot object
 gg = ggplot(shapefile.wgs84) + 
     geom_polygon(aes(x = long, 
                      y = lat, 
@@ -68,7 +79,7 @@ gg = ggplot(shapefile.wgs84) +
          y = "Latitude", 
          title = "Map of Greater London with borough boundaries")
 
-# print crime location data with ggplot (make take a while to draw to screen)
+# overlay crime location data to map (make take a while to draw to screen)
 gg + geom_point(data = crimes, 
                 aes(x = Longitude, 
                     y = Latitude, 
