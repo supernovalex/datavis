@@ -1,10 +1,10 @@
 # DALT7016 Data Visualization R Code
 
-Oxford Brookes Data Visualization Scripts for tutorials.
+R scripts for Oxford Brookes data visualization tutorials.  
 
 ## What's this?
 
-Code for the class in a nice tidy format. We must revolt against code being taught using .jpgs and PowerPoint. 
+R code for the class in a nice tidy format. We must revolt against code being taught using .jpgs and PowerPoint. You must set up your own development environment (and know where your data is)!
 
 ## Important
 
@@ -13,16 +13,18 @@ Public repository: Please be nice.
 # Contents
 
 ### Week 1
->shiny_app/app.R
+>shiny_app/week1_app.R
 
-Setup file will be updated and changed as the course progresses. Week 3 will add functionality.
+The og file that wasn't finished in class in week 1. This file will be updated and changed as the course progresses. 
 
 ### Week 2
 >2_crime_map_full_script.R
 
-Overalaying geolocation data with crime data using ggplot2.
+Overlaying geolocation data with crime data using ggplot2.
 
 ### Week 3
->tbc
+>shiny_app/app.R
+
+Adding functionality to the RShiny application. Notice that functions are defined in the server block, then called from the ui block (but the ui code is written first in class).
 
 

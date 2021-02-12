@@ -2,6 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+.README.md~
+.gitignore~
+..gitignore.md~
 london_map/*
 police/*
 datavis.Rproj
