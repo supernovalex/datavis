@@ -14,12 +14,15 @@ Public repository: Please be nice.
 
 ### Week 1
 >shiny_app/app.R
+
 Setup file will be updated and changed as the course progresses. Week 3 will add functionality.
 
 ### Week 2
 >2_crime_map_full_script.R
+
 Overalaying geolocation data with crime data using ggplot2.
 
 ### Week 3
 >tbc
+
 
