@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.README.md~
+.gitignore~
+..gitignore.md~
+..gitignore.un~
+.README.md.un~
+london_map/*
+police/*
+datavis.Rproj
