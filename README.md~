@@ -6,7 +6,9 @@ R scripts for Oxford Brookes data visualization tutorials.
 
 R code for the class in a nice tidy format. We must revolt against code being taught using .jpgs and PowerPoint. You must set up your own development environment (and know where your data is)!
 
-Including data files for a "one-click" download is being considered. However that would increase clone time substantially as datasets are about half a gigabyte in size.
+## Important
+
+Public repository: Please be nice.
 
 # Contents
 
@@ -25,5 +27,4 @@ Overlaying geolocation data with crime data using ggplot2.
 
 Adding functionality to the RShiny application. Notice that functions are defined in the server block, then called from the ui block (but the ui code is written first in class).
 
-### Week 4
->tbc
+
