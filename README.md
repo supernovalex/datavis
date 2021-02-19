@@ -26,4 +26,13 @@ Overlaying geolocation data with crime data using ggplot2.
 Adding functionality to the RShiny application. Notice that functions are defined in the server block, then called from the ui block (but the ui code is written first in class).
 
 ### Week 4
->tbc
+
+The document _\<EDA exercises.docx\>_ are plagiarised questions from a chapter in R4DS. You can find them here: 
+
+>https://r4ds.had.co.nz/exploratory-data-analysis.html
+
+There is an answer book here:
+
+>https://jrnold.github.io/r4ds-exercise-solutions/
+
+There is another document _\<Working with Data Practical.docx\>_ which refers to a dataset I cannot find so...
