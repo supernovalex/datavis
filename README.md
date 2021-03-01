@@ -36,3 +36,9 @@ There is an answer book here:
 >https://jrnold.github.io/r4ds-exercise-solutions/
 
 There is another document _\<Working with Data Practical.docx\>_ which refers to a dataset I cannot find so...
+
+### Week 5
+
+Catch up & assignment week, no resources provided. Cat video instead.
+
+>https://www.youtube.com/watch?v=W86cTIoMv2U
